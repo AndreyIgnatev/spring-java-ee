@@ -1,0 +1,15 @@
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/HelloSpring.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/config/WebConfig.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/LikeMessageProvider.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/InjectFoodStuff.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/InjectFoodStuffAnnotationBeanPostProcessor.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/MessageRender.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/MessageProvider.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/model/Message.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/repository/MessageRepository.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/controller/MessageController.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/ConsoleMessageRender.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/HelloSpringMessageProvider.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/WantMessageProvider.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/config/HelloConfiguration.java
+/Users/aiiganty/IdeaProjects/untitled/spring-java-ee/spring-java-ee/src/main/java/ru/gb/service/MessageService.java
