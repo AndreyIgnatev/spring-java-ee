@@ -1,8 +1,5 @@
 package ru.gb;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.gb.config.HelloConfiguration;
-
 //public class HelloSpring {
 //    public static void main(String[] args) {
 //        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(HelloConfiguration.class);
