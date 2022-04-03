@@ -1,0 +1,15 @@
+ru/gb/LikeMessageProvider.class
+ru/gb/config/HelloConfiguration.class
+ru/gb/HelloSpringMessageProvider.class
+ru/gb/model/Message$MessageBuilder.class
+ru/gb/InjectFoodStuff.class
+ru/gb/MessageProvider.class
+ru/gb/controller/MessageController.class
+ru/gb/service/MessageService.class
+ru/gb/config/WebConfig.class
+ru/gb/InjectFoodStuffAnnotationBeanPostProcessor.class
+ru/gb/WantMessageProvider.class
+ru/gb/MessageRender.class
+ru/gb/repository/MessageRepository.class
+ru/gb/ConsoleMessageRender.class
+ru/gb/model/Message.class
