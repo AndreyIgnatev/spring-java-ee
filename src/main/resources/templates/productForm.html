@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"> <!-- Пространство имен thymeleaf-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Продукты!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2> Добавляем новый продукт в список!</h2>
+    <form method="post" th:action="@{'/create'}">
+        <div class="mb-3">
+            <label for="studentId" class="form-label">ID</label>
+            <input type="number" name="id" class="form-control" id="studentId">
+        </div>
+        <div class="mb-3">
+            <label for="studentName" class="form-label">Название</label>
+            <input type="text" name="title" class="form-control" id="studentName">
+        </div>
+        <div class="mb-3">
+            <label for="studentScore" class="form-label">Стоимость</label>
+            <input type="number" name="cost" class="form-control" id="studentScore">
+        </div>
+        <button class="btn btn-primary" type="submit">Сохранить</button>
+    </form>
+    <p></p>
+    <a th:href="@{'/'}" class="btn btn-primary">К списку продуктов</a>
+</div>
+</body>
+</html>
