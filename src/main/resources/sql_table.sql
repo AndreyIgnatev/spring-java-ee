@@ -1,0 +1,32 @@
+CREATE TABLE PRODUCT
+(
+    ID   BIGSERIAL    NOT NULL PRIMARY KEY,
+    NAME VARCHAR(255) NOT NULL, UNIQUE (NAME),
+    COST DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE ORDER_CLIENT
+(
+    ID BIGSERIAL NOT NULL PRIMARY KEY,
+    BUYER_DETAILS VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE ORDER_PRODUCT
+(
+    ORDER_ID    BIGINT NOT NULL,
+    PRODUCT_ID BIGINT NOT NULL,
+
+    PRIMARY KEY (ORDER_ID, PRODUCT_ID),
+
+    CONSTRAINT fk_oder_product_order
+        FOREIGN KEY (ORDER_ID)
+            REFERENCES ORDER_CLIENT (ID),
+
+    CONSTRAINT fk_order_product_product
+        FOREIGN KEY (PRODUCT_ID)
+            REFERENCES PRODUCT(ID)
+);
+
+insert into PRODUCT (name,cost) values ('Apple',100.00);
+insert into PRODUCT (name,cost) values ('Orange',90.00);
+insert into PRODUCT (name,cost) values ('Cherry',300.00);
